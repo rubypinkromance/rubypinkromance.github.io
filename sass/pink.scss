@@ -1,0 +1,67 @@
+@import "normalize";
+
+$rubypink: #ff1b61;
+
+body {
+    background: #333;
+    color: $rubypink;
+    font-size: 16px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: 100;
+    margin: 1em 0 .25em;
+    text-shadow: 0 0 .15em $rubypink,
+                 0 0 .25em $rubypink,
+                 0 0 .33em $rubypink,
+                 0 0 .5em $rubypink,
+                 0 0 .66em $rubypink,
+                 0 0 1em $rubypink;
+}
+
+h2, h3 {
+    font-style: italic;
+    font-weight: 100;
+    margin: .25em 0;
+    text-transform: uppercase;
+    text-shadow: 0 0 .25em $rubypink,
+                 0 0 .5em $rubypink;
+}
+
+h3 {
+    margin-bottom: 1em;
+}
+
+#mc_embed_signup {
+    border: 2px solid $rubypink;
+    margin: 4em auto 0;
+    padding: 1em;
+    max-width: 400px;
+}
+
+input,
+label {
+    display: block;
+    font-size: 16px;
+    margin: .5em auto;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: .75em;
+}
+
+input {
+    background: none;
+    color: $rubypink;
+    padding: .33em .75em;
+    border: 2px solid $rubypink;
+}
+
+input[type=submit] {
+    background: $rubypink;
+    color: #333;
+    text-transform: uppercase;
+}
