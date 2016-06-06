@@ -368,7 +368,10 @@ body {
   background: #333;
   color: #ff1b61;
   font-size: 16px;
-  text-align: center; }
+  text-align: center;
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 2em; }
 
 h1 {
   font-size: 6em;
@@ -388,6 +391,7 @@ h3 {
 
 #mc_embed_signup {
   border: 2px solid #ff1b61;
+  border-radius: .5em;
   margin: 4em auto 0;
   padding: 1em;
   max-width: 400px; }
@@ -406,7 +410,8 @@ input {
   background: none;
   color: #ff1b61;
   padding: .33em .75em;
-  border: 2px solid #ff1b61; }
+  border: 2px solid #ff1b61;
+  border-radius: .25em; }
 
 input[type=submit] {
   background: #ff1b61;
