@@ -368,10 +368,13 @@ body {
   background: #333;
   color: #ff1b61;
   font-size: 16px;
-  text-align: center;
-  max-width: 40em;
   margin: 0 auto;
-  padding: 2em; }
+  max-width: 960px;
+  padding: 2em;
+  text-align: center; }
+
+a {
+  color: #ff1b61; }
 
 h1 {
   font-size: 6em;
@@ -383,18 +386,22 @@ h2, h3 {
   font-style: italic;
   font-weight: 100;
   margin: .25em 0;
-  text-transform: uppercase;
-  text-shadow: 0 0 0.25em #ff1b61, 0 0 0.5em #ff1b61; }
+  text-shadow: 0 0 0.25em #ff1b61, 0 0 0.5em #ff1b61;
+  text-transform: uppercase; }
 
 h3 {
   margin-bottom: 1em; }
 
+.lead {
+  margin: 0 auto;
+  max-width: 40em; }
+
 #mc_embed_signup {
-  border: 2px solid #ff1b61;
   border-radius: .5em;
-  margin: 4em auto 0;
-  padding: 1em;
-  max-width: 400px; }
+  border: 2px solid #ff1b61;
+  margin: 4em auto;
+  max-width: 400px;
+  padding: 1em; }
 
 input,
 label {
@@ -403,17 +410,52 @@ label {
   margin: .5em auto; }
 
 label {
-  text-transform: uppercase;
-  font-size: .75em; }
+  font-size: .75em;
+  text-transform: uppercase; }
 
 input {
   background: none;
-  color: #ff1b61;
-  padding: .33em .75em;
+  border-radius: .25em;
   border: 2px solid #ff1b61;
-  border-radius: .25em; }
+  color: #ff1b61;
+  padding: .33em .75em; }
 
 input[type=submit] {
   background: #ff1b61;
   color: #333;
   text-transform: uppercase; }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 4em 0;
+  padding: 0; }
+
+.gallery-item {
+  flex: 1 1 300px;
+  font-size: smaller;
+  margin: .5em;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-align: left; }
+  .gallery-item a {
+    display: block; }
+    .gallery-item a:hover .gallery-item--description, .gallery-item a:focus .gallery-item--description {
+      transform: translateY(0); }
+
+.gallery-item--thumb {
+  display: block;
+  height: auto;
+  width: 100%; }
+
+.gallery-item--description {
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  transform: translateY(100%);
+  transition: transform .25s ease; }

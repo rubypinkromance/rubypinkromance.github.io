@@ -11,6 +11,72 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/BPI-01-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138297,
+		"inputAbbreviatedPath": "\/images\/BPI-01-web.jpg",
+		"outputAbbreviatedPath": "\/images\/BPI-01-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/BPI-02-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118895,
+		"inputAbbreviatedPath": "\/images\/BPI-02-web.jpg",
+		"outputAbbreviatedPath": "\/images\/BPI-02-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/BPI-03-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94309,
+		"inputAbbreviatedPath": "\/images\/BPI-03-web.jpg",
+		"outputAbbreviatedPath": "\/images\/BPI-03-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/BPI-04-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81481,
+		"inputAbbreviatedPath": "\/images\/BPI-04-web.jpg",
+		"outputAbbreviatedPath": "\/images\/BPI-04-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/BPI-B01-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108515,
+		"inputAbbreviatedPath": "\/images\/BPI-B01-web.jpg",
+		"outputAbbreviatedPath": "\/images\/BPI-B01-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/christmas-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122126,
+		"inputAbbreviatedPath": "\/images\/christmas-web.jpg",
+		"outputAbbreviatedPath": "\/images\/christmas-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
